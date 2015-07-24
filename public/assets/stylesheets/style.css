@@ -33,12 +33,18 @@ header a.brand span {
   width: 30%;
   display: inline-block;
   vertical-align: top;
+  margin-right: -4px;
 }
 #busquedas .filter {
   background: #fff;
   height: 50px;
   padding-left: 34px;
   position: relative;
+}
+#busquedas .filter:first-child {
+  border-right: 1px solid #ddd !important;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 #busquedas .filter .fa {
   position: absolute;
