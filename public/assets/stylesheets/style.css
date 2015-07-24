@@ -4,6 +4,7 @@ body {
 }
 header {
   background-color: #fff;
+  padding: 15px 0px;
 }
 header .logo {
   width: 100px;
@@ -75,6 +76,9 @@ header a.brand span {
 #categories .category {
   margin-bottom: 40px;
 }
+#categories .category .head {
+  color: #03876d;
+}
 #categories .category .head .icon {
   width: 60px;
   height: 60px;
@@ -94,10 +98,12 @@ header a.brand span {
 #categories .category .head .title .name {
   font-size: 20px;
   font-weight: bold;
-  color: #03876d;
 }
 #categories .category .head .title .counter {
   color: #4e575d;
+}
+#categories .category .head .title:hover {
+  text-decoration: underline;
 }
 #categories .category .content li {
   line-height: 30px;
@@ -129,4 +135,17 @@ header a.brand span {
 }
 #pop-categories li a:hover {
   text-decoration: underline;
+}
+#contact {
+  background-color: #16a085;
+  padding: 40px 0px;
+  color: #fff;
+}
+#contact .btn-contact {
+  background-color: #028c71;
+  border-color: #028c71;
+  color: #fff;
+}
+#contact .btn-contact i {
+  margin-right: 6px;
 }

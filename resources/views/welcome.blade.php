@@ -16,7 +16,7 @@
             </a>
         </div>
     </header>
-    <div class="background-one">
+    <div class="background-one z-depth-1">
         <div class="container center-align">
             <br>
             <h2 class="white-text">¡Tenemos lo que buscas!</h2>
@@ -236,12 +236,20 @@
             </div>
         </div>
     </section>
-
-    <div class="center-align">
-        <h1>Aquitevendo.com.mx</h1>
-        <h3>Tenemos a todos nuestros monos trabajando</h3>
-        <h5>"Una nueva experiencia en ventas"</h5>
-    </div>
+    
+    <section id="contact">
+        <div class="container">
+            <div class="center-align">
+                <h1>Aquitevendo.com.mx</h1>
+                <h3>Tenemos a todos nuestros monos trabajando</h3>
+                <h5>"Una nueva experiencia en ventas"</h5>
+                <br>
+                <a href="#" class="btn btn-contact">
+                    <i class="fa fa-mobile-phone"></i> Contactanos
+                </a>
+            </div>
+        </div>
+    </section>
     <script type="text/javascript" src="{{asset('assets/stylesheets/materialize.js')}}"></script>
 </body>
 </html>

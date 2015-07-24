@@ -5,6 +5,7 @@ body
 
 header
 	background-color white
+	padding 15px 0px
 	.logo
 		width 100px
 		vertical-align top
@@ -61,15 +62,17 @@ header
 
 $verde_agua = #03876D
 $gris = #4E575D
+$verde_agua_secundario = #16A085
 
 #categories	
 	background-color white
 	padding 15px
-	border-radius: 3px;
+	border-radius 3px
 	box-shadow: 0px 1px 1px rgba(180, 180, 180, 0.5);
 	.category
 		margin-bottom 40px
 		.head
+			color $verde_agua
 			.icon
 				width 60px
 				height 60px
@@ -87,9 +90,10 @@ $gris = #4E575D
 				.name
 					font-size 20px
 					font-weight bold
-					color $verde_agua
 				.counter
 					color $gris
+				&:hover
+					text-decoration underline
 		.content
 			li
 				line-height 30px
@@ -117,3 +121,14 @@ $gris = #4E575D
 			line-height 42px
 			&:hover
 				text-decoration underline
+
+#contact
+	background-color $verde_agua_secundario
+	padding 40px 0px
+	color white
+	.btn-contact
+		background-color #028C71
+		border-color #028C71
+		color #FFF
+		i
+			margin-right 6px
