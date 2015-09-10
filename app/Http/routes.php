@@ -18,3 +18,6 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::resource('establecimiento', 'EstablecimientoController');
    
 });
+
+get('/activo/agregar', 'ActivoController@create');
+post('/activo/agregar', 'ActivoController@store');
